@@ -1,0 +1,43 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+.col-md-10 {
+    width: 95%;
+    margin: 20px auto;
+}
+
+
+.top {
+    &__top {
+        font-size: 30px;
+        &__st {
+            font-weight: bold;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    }
+    &__middle {
+        line-height: 40px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    &__bottom {
+        font-size: 14px;
+        &__link {
+            color: gray;
+        }
+        :hover {
+            color: white;
+            background-color: black;
+        }
+    }
+}
+
+.show {
+    &__top {
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+}

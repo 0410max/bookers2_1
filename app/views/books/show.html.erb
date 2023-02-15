@@ -1,0 +1,14 @@
+<div class='container'>
+    <div class='col-md-10'>
+        <div class='row'>
+            <%= flash[:notice] %>
+            <div class='show__top'>
+                Title:<%= @book.title %><br />
+                Body:<%= @book.body %>
+            </div>
+            <div class='show__link'>
+                <%= link_to 'Edit',edit_book_path(@book) %> | <%= link_to 'Back',books_path %>
+            </div>
+        </div>
+    </div>
+</div>
